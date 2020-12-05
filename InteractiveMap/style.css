@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(18, 181, 131);
+}
+
+*{
+    padding: 0; margin: 0; border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: #ccc;
+}
+
+.container{
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, violet, red,orange); /* Linear Gradients (goes down/up/left/right/diagonally) */
+    width: 80%;
+    height: 100vh;
+}
+
+h1{
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #ccc;
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 48px;
+    }
+
+    #map{
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .title ul li{
+        padding: 8px 0;
+    }
+
+    li a{
+        padding: 9px 10px;
+    }
+    .title{
+        margin-top: 30px;
+    }
+}
+
+
+.title ul li{
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    border: #fff solid 2px;
+    border-radius: 50px;
+    padding: 15px 0px;
+    margin: 5px auto;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 3s cubic-bezier(0.455, 0.030, 0.515, 0.955); /*  wow */
+    padding: 15px 10px;
+}
+
+li a:hover{
+    background: #fff;
+    color: #1db8e8;
+    border-radius: 50px;
+}
+
+#map{
+    margin-top: 2   0px;
+}
+

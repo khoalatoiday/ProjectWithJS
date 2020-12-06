@@ -1,0 +1,14 @@
+body{
+    background-color: #000;
+}
+
+#clockDigital{
+    position: absolute;
+    color: #add80a;
+    letter-spacing: 5px;
+    font-size: 3em;
+    font-family:  Orbitron;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+}
